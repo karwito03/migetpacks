@@ -2,7 +2,7 @@
 
 **Auto-detecting buildpacks for container images** - automatically detects your language, version, and builds optimized container images using official upstream Docker images.
 
-Built by [miget.com](https://miget.com) — Unlimited apps, one price.
+Built by [miget.com](https://miget.com) - Unlimited apps, one price.
 
 [![License](https://img.shields.io/badge/license-O'Saasy-blue.svg)](https://github.com/migetapp/migetpacks/blob/main/LICENSE)
 [![Docker Image](https://img.shields.io/badge/docker-miget%2Fmigetpacks-blue)](https://hub.docker.com/r/miget/migetpacks)
@@ -291,6 +291,27 @@ docker run --rm \
 
 DHI images are distroless (no shell, no apt-get) with minimal attack surface.
 
+### Docker Desktop (Mac/Windows)
+
+Docker Desktop stores credentials in the system keychain, not in `~/.docker/config.json`. Extract credentials and pass them as environment variables:
+
+```bash
+# Extract credentials from Docker Desktop keychain
+DHI_USERNAME=$(echo "dhi.io" | docker-credential-desktop get | jq -r '.Username')
+DHI_PASSWORD=$(echo "dhi.io" | docker-credential-desktop get | jq -r '.Secret')
+
+# Build with DHI
+docker run --rm \
+  -v "$(pwd):/workspace/source:ro" \
+  -v /var/run/docker.sock:/var/run/docker.sock \
+  -e OUTPUT_IMAGE=my-app:local \
+  -e ARCH=arm64 \
+  -e USE_DHI=true \
+  -e DHI_USERNAME="$DHI_USERNAME" \
+  -e DHI_PASSWORD="$DHI_PASSWORD" \
+  miget/migetpacks:latest
+```
+
 ## Dockerfile & Compose Support
 
 ### Custom Dockerfile
@@ -495,7 +516,7 @@ make test-go
 
 ## About
 
-migetpacks is built by [miget.com](https://miget.com) — unlimited apps, one price. We use migetpacks to build customer apps with zero configuration.
+migetpacks is built by [miget.com](https://miget.com) - unlimited apps, one price. We use migetpacks to build customer apps with zero configuration.
 
 ## License
 
